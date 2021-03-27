@@ -104,7 +104,7 @@ button.slick-prev{
     position: absolute;
     background-image: url('../img/anterior.png');
     left: 0;
-    top: 41%;
+    top: 50%;
 }
 button.slick-next{
     font-size: 0px;
@@ -116,7 +116,7 @@ button.slick-next{
     position: absolute;
     background-image: url('../img/proximo.png');
     right: 0;
-    top: 41%; 
+    top: 50%; 
 }
 .slick-dots li button{
     font-size:  0px;
