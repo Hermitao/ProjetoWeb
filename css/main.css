@@ -73,7 +73,49 @@ main{
     width: 980px;
     float: left;
     position: relative;
-    margin-left: 617px;
+    left: 22%;
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/anterior.png');
+    left: 0;
+    top: 41%;
+}
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/proximo.png');
+    right: 0;
+    top: 41%; 
+}
+.slick-dots li button{
+    font-size:  0px;
+    border: none;
+    padding: 0px;
+}
+.slick-dots li{
+    display: inline-block;
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 22%;
+    top: 97%;
+}
+.slick-list{
+    width: 100%!important;
 }
 .sidenav {
     font-family: "DejaVu Sans Mono", monospace;
