@@ -1,3 +1,10 @@
+.exile{
+    float: left;
+    margin-left: 16px;
+    margin-top: 5px;
+    font-size: 45px;
+}
+
 body{
     width: 100%;
     height: 100%;
@@ -31,13 +38,14 @@ main{
     float: right;
 }
 .header-2{
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     width: 980px; 
     margin: 0 auto;
     padding: 15px;
 }
 .menu-urls{
     height: 80px;
+    width: 100%;
     border-bottom: 3px solid #efefef; 
 }
 .menu-2 > ul > li{
@@ -46,28 +54,39 @@ main{
     margin-left: 17px;
 }
 .menu-2 > ul > li > a{
-    color: #8b8b8b;
+    color: whitesmoke;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     text-transform: uppercase;
 }
 .menu-2{
-    width:70%;
+    width:55%;
     float: left;
+    background-color: #3c415c;
+    border-radius: 25px;
+    margin-top: 1px;
+    margin-left: 1px;
+    text-align: center;
 }
 .busca{
     width: 30%;
     float: right;
+    margin-top: 1px;
 }
 .busca input{
-    margin-top: 17px;
+    float: right;
+    border-radius: 25px;
     height:36px;
     border: 1px solid #d6d6d6;
+    margin-right: 66px;
+    margin-top: 18px;
 }
+
 .col-100{
     width: 100%;
     float: left;
     position: relative;
+    background-color: #b4a5a5;
 }
 .slider-principal{
     width: 980px;
@@ -75,6 +94,11 @@ main{
     position: relative;
     margin-left: 617px;
 }
+
+body > main{
+    background-color: black;
+}
+
 .sidenav {
     font-family: "DejaVu Sans Mono", monospace;
     height: 100%;
