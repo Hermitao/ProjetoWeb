@@ -1,7 +1,7 @@
 .exile{
     float: left;
-    margin-left: 16px;
-    margin-top: 5px;
+    margin-right: 100px;
+    margin-top: -10px;
     font-size: 45px;
 }
 
@@ -30,7 +30,6 @@ main{
 .redes-socias  ul  li{
     margin-left: 7px;
     display: inline-block;
-    float: left;
     list-style: none;
 }
 .redes-socias{
@@ -51,12 +50,12 @@ main{
 .menu-2 > ul > li{
     display: inline-block;
     color: #8b8b8b; 
-    margin-left: 17px;
+    margin-left: 13px;
 }
 .menu-2 > ul > li > a{
     color: whitesmoke;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 .menu-2{
@@ -64,8 +63,6 @@ main{
     float: left;
     background-color: #3c415c;
     border-radius: 25px;
-    margin-top: 1px;
-    margin-left: 1px;
     text-align: center;
 }
 .busca{
@@ -87,6 +84,18 @@ main{
     float: left;
     position: relative;
     background-color: #b4a5a5;
+}
+
+.vao{
+    margin: 15px; 
+    background-color: #151515;
+    color:#301b3f;
+    text-decoration: underline;
+    font-size: 49px;
+}
+
+h3{
+    background-color: #151515;
 }
 .slider-principal{
     width: 980px;
