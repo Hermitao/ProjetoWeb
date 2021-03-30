@@ -9,17 +9,18 @@ body{
     width: 100%;
     height: 100%;
     margin: 0px;
+    background-color: #131413;
 }
 ul{
     padding: 0px!important;
 }
 .menu{
     width: 100%;
-    background-color: #151515;
+    background-color: #131413;
     height: 60px;
 }
 main{
-    position: relative;
+    position: relative; 
     margin: 0 auto;
 }
 .logo{
@@ -36,23 +37,25 @@ main{
     float: right;
 }
 .header-2{
-    background-color: #151515;
+    background-color: #131413;
     width: 980px; 
     margin: 0 auto;
     padding: 15px;
+
+    transition: margin-left .25s;
 }
 .menu-urls{
     height: 80px;
     width: 100%;
-    border-bottom: 20px solid #151515; 
+    border-bottom: 20px solid #131413; 
 }
 .menu-2 > ul > li{
     display: inline-block;
-    color: #8b8b8b; 
+    color: #ecebeb; 
     margin-left: 13px;
 }
 .menu-2 > ul > li > a{
-    color: #3c415c;
+    color: #252323;
     text-decoration: none;
     font-size: 15px;
     text-transform: uppercase;
@@ -60,7 +63,7 @@ main{
 .menu-2{
     width:55%;
     float: left;
-    background-color: #301b3f;
+    background-color: #59b84d;
     border-radius: 25px;
     text-align: center;
 }
@@ -82,14 +85,14 @@ main{
     width: 100%;
     float: left;
     position: relative;
-    background-color: #b4a5a5;
+    background-color: #131413;
+    
 }
 
 .vao{
     margin: 0px; 
-    background-color: #151515;
-    color:#3c415c;
-    text-decoration: underline;
+    background-color: #741b1b;
+    color:#e2cfd3;
     font-size: 49px;
     font-family: "DejaVu Sans Mono", monospace;
     padding: 15px;
@@ -145,7 +148,7 @@ button.slick-next{
 }
 
 body > main{
-    background-color: #151515;
+    background-color: #131413;
 }
 
 .sidenav {
@@ -156,11 +159,12 @@ body > main{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #151515;
+    background-color: #111111;
     overflow-x: hidden;
     padding-top: 12px;
     border-top-right-radius: 2%;
     border-bottom-right-radius: 2%;
+    transition: 0.25s;
 }
 
 .sidenav-container {
@@ -178,11 +182,11 @@ body > main{
     display: block;
     font-weight: bold;
 
-    -webkit-transition: color 0.2s;
-    -moz-transition:    color 0.2s;
-    -ms-transition:     color 0.2s;
-    -o-transition:      color 0.2s;
-    transition:         color 0.2s;
+    -webkit-transition: color 0.2s, margin-left 0.1s;
+    -moz-transition:    color 0.2s, margin-left 0.1s;
+    -ms-transition:     color 0.2s, margin-left 0.1s;
+    -o-transition:      color 0.2s, margin-left 0.1s;
+    transition:         color 0.2s, margin-left 0.1s;
 }
 
 .sidenav p {
@@ -194,7 +198,8 @@ body > main{
 }
 
 .sidenav a:hover {
-    color: #ebe1e1;
+    color: #26c212;
+    margin-left: 7px;
 }
 
 .sidenav img {
@@ -219,8 +224,8 @@ body > main{
     border-radius: 50%;
     text-align: center;
     font-size: 24px;
-    color:#777272;
-    border: 2px solid #777272;
+    color:#76a86f;
+    border: 2px solid #409b34;
 
     -webkit-transition: color 0.5s, border 0.2s;
     -moz-transition:    color 0.5s, border 0.2s;
@@ -230,6 +235,6 @@ body > main{
 }
 
 .number-circle:hover {
-    color:#f7f2f2;
-    border: 2px solid #ddd4d4;
+    color:#add8a8;
+    border: 2px solid #59b84d;
 }
