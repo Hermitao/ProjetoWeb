@@ -238,3 +238,13 @@ body > main{
     color:#add8a8;
     border: 2px solid #59b84d;
 }
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
