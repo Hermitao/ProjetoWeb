@@ -64,6 +64,7 @@ main{
     width:55%;
     float: left;
     background-color: #59b84d;
+    background-image: linear-gradient(#59b84d, #47923d);
     border-radius: 25px;
     text-align: center;
 }
@@ -86,12 +87,12 @@ main{
     float: left;
     position: relative;
     background-color: #131413;
-    
 }
 
 .vao{
     margin: 0px; 
     background-color: #741b1b;
+    background-image: linear-gradient(#5c1414, #741b1b);
     color:#e2cfd3;
     font-size: 49px;
     font-family: "DejaVu Sans Mono", monospace;
