@@ -250,6 +250,23 @@ body > main{
     border: 2px solid #59b84d;
 }
 
+.Lista_Jogos {
+    width: 55%;
+    float: left;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+}
+.Lista_Jogos > ul > li{
+    padding : 15px;
+}
+
+
+
+
+
+
+
 .footer{
     position: fixed;
     left: 0;
