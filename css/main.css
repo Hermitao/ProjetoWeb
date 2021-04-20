@@ -305,3 +305,14 @@ body > main{
     font-family: "DejaVu Sans Mono", monospace;
 
 }
+
+h2{
+    text-align: center;
+    color:black;
+    margin-right: auto;
+}
+
+.foto{              
+    display: block;
+    margin-left: auto;
+}
