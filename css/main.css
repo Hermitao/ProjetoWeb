@@ -256,7 +256,14 @@ body > main{
     border-radius: 25px;
     text-align: center;
     color: #fff;
+    font-family: "DejaVu Sans Mono", monospace;
 }
+
+.Lista_Jogos img {
+    width: 75px;
+    height: 75px;
+}
+
 .Lista_Jogos > ul > li{
     padding : 15px;
 }
