@@ -366,3 +366,35 @@ body > main{
     display: block;
     margin-left: auto;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    margin-left: 15vw;
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin: 0.5vw;
+    width: 25vw;
+    height: 18vw;
+    vertical-align: middle;
+    opacity: 0.65;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    -webkit-transition: opacity 0.1s;
+    -moz-transition:    opacity 0.1s;
+    -ms-transition:     opacity 0.1s;
+    -o-transition:      opacity 0.1s;
+    transition:         opacity 0.1s;
+  }
+
+  .column img:hover {
+      opacity: 1;
+  }
