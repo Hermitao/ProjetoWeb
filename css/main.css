@@ -295,3 +295,14 @@ body > main{
     justify-content: center;
     align-items:center;
 }
+
+h2{
+    text-align: center;
+    color:black;
+    margin-right: auto;
+}
+
+.foto{              
+    display: block;
+    margin-left: auto;
+}
