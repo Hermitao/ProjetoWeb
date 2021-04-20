@@ -100,13 +100,25 @@ main{
 }
 
 .vao{
-    margin: 0px; 
+    margin: auto; 
     background-color: #741b1b;
     background-image: linear-gradient(#5c1414, #741b1b);
     color:#e2cfd3;
     font-size: 49px;
     font-family: "DejaVu Sans Mono", monospace;
     padding: 15px;
+
+}
+
+.vao-loja{
+    margin: auto; 
+    background-color: #741b1b;
+    background-image: linear-gradient(#5c1414, #741b1b);
+    color:#e2cfd3;
+    font-size: 49px;
+    font-family: "DejaVu Sans Mono", monospace;
+    padding: 15px;
+    text-align : right;
 }
 
 .slider-principal{
