@@ -295,11 +295,10 @@ body > main{
     height: 20vh;
     background: #131413;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     color: #fff;
     font-family: "DejaVu Sans Mono", monospace;
-    margin-left: 5vw;
 }
 
 .container img {
