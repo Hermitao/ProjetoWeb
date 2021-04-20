@@ -5,67 +5,24 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="shortcut icon" href="img/icon.png"/>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script> 
+        $(function(){
+            $("#navBar").load("/html/navBarIndex.html"); 
+        });
+        $(function(){
+            $("#sideNav").load("/html/sideNavIndex.html"); 
+        });
+    </script> 
     <title>Exile</title>
 </head>
 
 <body>
-    <header class="menu">
-        <main>
-            <div class="header-1">
-        </main>
-    </header>
-    <main class = "menu-urls">
-        <div class="busca">
-            <input placeholder = "Busca" type="text" />
-        </div>
-        <div id="barra-superior" class="header-2">
-            <h1 class="exile">
-                <img src="img/exile.png" height="70px">
-            </h1>
-            <div class="menu-2">
-                <ul>
-                    <li> 
-                        <a href="">Home</a>
-                        <span>|</span>
-                    </li>
-                    <li>
-                        <a href="">Sobre</a>
-                        <span>|</span>
-                    </li>
-                    <li>
-                        <a href="">Jogos</a>
-                        <span>|</span>
-                    </li>
-                    <li>
-                        <a href="">Contato</a>
-                        <span>|</span>
-                    </li>
-                    <li>
-                        <a href="">Foruns</a>
-                        <span>|</span>
-                    </li>
-                    <li>
-                        <a href="paginas/faleconosco.html">Fale conosco</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </main>
+
+    <div id="navBar"></div>
    <h3 class="vao">JOGOS EM DESTAQUE</h3>
     <div class="col-100">
-    <div id="sideNav" class="sidenav">
-        <div class="sidenav-container">
-            <img src="./img/avatar2.jpg" style="width:65%;">
-            <div class="number-circle">34</div></b>
-            <a href="#">@GameDestroyer1337</a>
-            <br>
-            <a href="paginas/biblioteca.html">BIBLIOTECA</a>
-            <a href="#">INVENTÁRIO</a>
-            <a href="#">CONQUISTAS</a>
-            <a href="#">CARTEIRA</a>
-            <a href="#">SUPORTE</a>
-        </div>
-    </div>
+    <div id="sideNav" class="sidenav"></div>
     <div class="slider-principal">
         <div><img src="img/minecraft2.jpg" height="560px"></div>
         <div><img src="img/poe-legion.jpg" height="560px"></div>
