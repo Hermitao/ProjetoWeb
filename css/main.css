@@ -287,11 +287,13 @@ body > main{
     align-items: center;
     color: #fff;
     font-family: "DejaVu Sans Mono", monospace;
-    margin-left: 15vw;
+    margin-left: 5vw;
 }
 
 .container img {
-    width: 200px;
+    width: 135px;
+    margin-left: 15vw;
+
 }
 
 .mensagem{
@@ -303,16 +305,17 @@ body > main{
     align-items:center;
     color: #fff;
     font-family: "DejaVu Sans Mono", monospace;
-
 }
 
-h2{
+.container h2{
     text-align: center;
-    color:black;
+    font-size: 20px;
+    color:fff;
     margin-right: auto;
 }
 
-.foto{              
+.foto{      
+    width: 100px;        
     display: block;
     margin-left: auto;
 }
