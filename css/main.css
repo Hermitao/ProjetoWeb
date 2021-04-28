@@ -118,7 +118,8 @@ main{
     font-size: 49px;
     font-family: "DejaVu Sans Mono", monospace;
     padding: 15px;
-    text-align : right;
+    text-align : center;
+    margin-right: 0px;
 }
 
 .slider-principal{
@@ -264,16 +265,22 @@ body > main{
 
 .Lista_Jogos {
     width: 55%;
-    float: left;
+    float: center;
     border-radius: 25px;
     text-align: center;
     color: #fff;
+    font-size: 20px;
     font-family: "DejaVu Sans Mono", monospace;
+    margin-left: 200px;
 }
 
 .Lista_Jogos img {
     width: 75px;
     height: 75px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
 .Lista_Jogos > ul > li{
