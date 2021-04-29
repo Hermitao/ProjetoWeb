@@ -1,14 +1,8 @@
 #!/bin/bash
-clear
-echo -n "Insira um valor entre 2-10: "
 read VALOR
-echo
-SOMA=0
-while [ $VALOR -gt "1" ]
+while [ $VALOR -gt "1" ]&&[ $VALOR -lt "11" ]
 do
-	echo -n "Entre com um valor: "
-	read ADICIONANDO
-	SOMA=$(($SOMA+$ADICIONANDO))
+	SOMA=$((SOMA+$VALOR))
+	VALOR=$(($VALOR-1))
 done
-echo -n "A soma dos números é: $SOMA"
-echo
+./progImpressao.sh $SOMA
