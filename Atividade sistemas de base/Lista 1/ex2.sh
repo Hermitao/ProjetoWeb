@@ -1,19 +1,22 @@
-#! /bin/bash
-echo -n "Digite o primeiro valor: "
+#!/bin/bash
+clear
+echo -n "Entre com o primeiro valor: "
 read V1
-echo -n "Digite o segundo valor: "
+echo -n "Entre com segundo valor: "
 read V2
-echo -n "Digite o terceiro valor: "
+echo -n "Entre com o terceiro valor: "
 read V3
-echo -n "Digite o quarto valor: "
+echo -n "Entre com o quarto valor: "
 read V4
-echo -n "Digite o quito valor: "
+echo -n "Entre com o quinto valor: "
 read V5
-echo -n "Digite o sexto valor: "
+echo -n "Entre com o sexto valor: "
 read V6
-RESULTADO=0
-RESULTADO=$(($V1+$V2+$V3+$V4+$V5+$V6))
+SOMA=0
+SOMA=$(echo "scale=2/ ($V1+$V2+$V3+$V4+$V5+$V6)"| bc)
 MEDIA=0
-MEDIA=$(echo "scale=2; ($RESULTADO/6)"| bc)
-echo
-echo "O resultado da média é: $MEDIA"
+MEDIA=$(echo "scale=2; ($SOMA/6)"| bc)
+echo "A soma dos valores foi de $SOMA e a média foi $MEDIA"
+
+
+

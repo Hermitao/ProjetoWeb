@@ -1,20 +1,26 @@
-echo -n "Digite o primeiro lado: "
-read x
-echo -n "Digite o segundo lado: " 
-read y
-echo -n "Digite o terceiro lado: " 
-read z
-if [[ x -ne z ]] && [[ x -ne y ]] && [[ y -ne z ]]; then
-echo "ESCALENO"
-elif [[ x -ne z ]]
-then
-echo "ISOSCELES"
-elif [[ y -ne z ]]
-then
-echo "ISOSCELES"
-elif [[ z -ne x ]]
-then
-echo "ISOSCELES"
-else
-echo "EQUILATERO"
+read X
+read Y
+read Z
+SOMA1=$(($X+$Y))
+SOMA2=$(($X+$Z))
+SOMA3=$(($Y+$Z))
+echo 
+if [ $SOMA1 -lt $Z ]; then
+        echo "Nao forma"
+        exit
+elif [ $SOMA2 -lt  $Y ]; then
+        echo "Nao forma"
+        exit
+elif [ $SOMA3 -lt $X ]; then
+        echo "Nao Forma"
+        exit
 fi
+ 
+if [ $X -ne $Z ]&&[ $X -ne $Y ]&&[ $Y -ne $Z ]; then
+        echo "ESCALENO"
+elif [ $X -eq $Z -a $X -ne $Y ]; then
+        echo "ISOSCELES"
+elif [ $Y -eq $Z -a $Y -ne $X ]; then
+        echo "ISOSCELES"
+elif [ $Y -eq $X -a $Y -ne $Z ]; then
+        echo "ISOSCELES"

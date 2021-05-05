@@ -1,10 +1,14 @@
 #!/bin/bash
-echo -n "Quiilometros percoridos: "
-read KM
-echo -n "Quantidade abastecida: "
-read LITROS
-CONSUMO=0
-CONSUMO=$(echo "scale=2; ($KM/$LITROS)"| bc)
+clear
 echo
-echo "O consumo foi de: $CONSUMO KM/L"
-
+echo "Informe a quantidade de quilômetros percorridos: "
+read KM
+echo
+echo "Infome a quantidade de gasolina abastecida: "
+read GASOSA
+echo
+CONSUMO=0
+CONSUMO=$(($KM/$GASOSA))
+echo
+echo "O carro rende $CONSUMO km por litro de gasolina."
+echo

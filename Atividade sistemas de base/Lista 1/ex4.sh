@@ -1,11 +1,14 @@
-#! /bin/bash
-echo -n "Digite a altura: "
+#!/bin/bash
+clear
+echo
+echo "Entre com os dimensões da caixa: "
+echo -n "Altura: "
 read ALTURA
-echo -n "Digite a largura: "
+echo -n "Largura: "
 read LARGURA
-echo -n "Digite o comprimento: "
+echo -n "Comprimento: "
 read COMPRIMENTO
 VOLUME=0
-VOLUME=$(echo "scale=2; ($ALTURA*$LARGURA*$COMPRIMENTO)"| bc)
+VOLUME=$(($ALTURA*$COMPRIMENTO*$LARGURA))
 echo
-echo "O volume é: $VOLUME"
+echo "O volume da caixa é de: $VOLUME"

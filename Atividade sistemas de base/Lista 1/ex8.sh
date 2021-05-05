@@ -6,12 +6,28 @@ read N2
 echo -n "Digite o terceiro numero: "
 read N3
 echo
-if [ $N1 -gt $N2 ]
-	if [ $N2 -gt $N3 ]
-	then
-		echo "$N1, $N2, $N3"
-	
-	else
-		echo "$N1, $N3, $N2" 
-	fi	
-fi
+if [ $N1 -ge $N2 ] && [ $N2 -ge $N3 ]
+then
+	clear
+	echo "$N1 $N2 $N3"
+elif [ $N1 -ge $N2 ] && [ $N3 -ge $N2 ]
+then
+	clear
+	echo "$N1 $N3 $N2"
+elif [ $N2 -ge $N1 ] && [ $N1 -ge $N3 ]
+then
+	clear
+	echo "$N2 $N1 $N3"
+elif [ $N2 -ge $N1 ] && [ $N3 -ge $N1 ]
+then
+	clear
+	echo "$N1 $N3 $N2"
+elif [ $N3 -ge $N1 ] && [ $N1 -ge $N2 ]
+then
+	clear
+	echo "$N3 $N1 $N2"
+elif [ $N3 -ge $N1 ] && [ $N2 -ge $N1 ]
+then
+	clear
+	echo "$N3 $N2 $N1"	
+fi 

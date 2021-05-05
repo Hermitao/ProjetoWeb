@@ -37,6 +37,12 @@ addCard()
 		fi
 		if [[ "$testNum" -lt 22 ]]; then
 			card=11
+		else
+			if [ "$arg1" == "dealer" ]; then
+				numOfAcesDealer=$(($numOfAcesDealer - 1))
+			else
+				numOfAces=$(($numOfAces - 1))
+			fi
 		fi
 	else
 		echo

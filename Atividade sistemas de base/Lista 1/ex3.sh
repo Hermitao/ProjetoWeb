@@ -1,13 +1,20 @@
 #!/bin/bash
-echo "Aumento salárial"
+clear
 echo
-echo -n "Digite o salário atual: "
+echo "Entre com o salário atual do funcionário: "
 read SALARIO
-echo -n "Digite o percentual (0/100): "
-read PORC
+echo
+echo "Entre com o percentual do aumento: "
+read AUMENTO
+echo
+ENFEITE=1
+SALARIO2=0
+AUMENTO2=0
 DIFERENCA=0
-DIFERENCA=$(echo "scale=2; ($SALARIO*$PORC/100)"| bc)
-SALNOVO=0
-SALNOVO=$(echo "scale=2; ($SALARIO+$DIFERENCA)"| bc)
-echo "O novo salário passou para $SALNOVO e a diferença é de $DIFERENCA"
-
+AUMENTO2=$((($AUMENTO/100)+$ENFEITE))
+SALARIO2=$(($SALARIO*$AUMENTO2))
+echo
+echo "O novo salário é de: $SALARIO2"
+echo
+DIFERENCA=$(($SALARIO2-$SALARIO))
+echo "O aumento foi de: $DIFERENCA"
