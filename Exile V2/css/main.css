@@ -276,7 +276,7 @@ body {
     right:0px;
     bottom:0px;
     left:0px;
-    background: #252525;
+    background: rgb(12, 14, 17);
     color:black;
     padding: 15px 0px;
 }
@@ -300,11 +300,23 @@ body {
     max-width: 540px;
     background-color: #9b8e85;
     padding: 25px 15px;
+
+    transition: transform .125s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.caixa-de-texto:hover {
+    transform: scale(1.08);
 }
 
 .box-imagem
 {
     margin-right: 50px;
+    transition: transform .125s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.box-imagem:hover
+{
+    transform: scale(1.19);
 }
 
 
