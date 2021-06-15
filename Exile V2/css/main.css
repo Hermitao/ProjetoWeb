@@ -69,10 +69,12 @@ body {
     -ms-transition:     opacity 0.35s;
     -o-transition:      opacity 0.35s;
     transition:         opacity 0.35s;
+    transition: transform .25s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .column img:hover {
     opacity: 1;
+    transform: scale(1.15);
 }
 
 @keyframes fadeIn-1 {
