@@ -287,6 +287,7 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 980px;
+    
     margin: 0 auto;
    
 }
@@ -342,4 +343,75 @@ body {
     background: #555;
   } 
 /* ---------------------------------------- */
+
+
+.frame-2
+{
+    position: relative;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    background: #000000;
+    color:black;
+    padding: 15px 0px;
+}
+
+.about-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.imagem-borda-2
+{
+    border-radius: 50%;
+}
+
+.caixa-de-contato-2
+{
+    max-width: 540px;
+    background-color: #ffffff;
+    width: 569px;
+    height: 150px;
+    padding: 10px 0px;
+    vertical-align: text-top;
+}
+
+.caixa-de-contato-email-assunto-2
+{
+    max-width: 540px;
+    background-color: #ffffff;
+    width: 569px;
+    height: 10px;
+    padding: 10px 0px;
+}
+
+.caixa-botao-2
+{
+    max-width: 540px;
+    background-color: #9b8e85;
+    padding: 25px 15px;
+    width: 540px;
+}
+
+.botao-2
+{
+    max-width: 540px;
+    color: azure;
+    background-color: #000000;
+    width: 100px;
+    height: 10px;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+
+.box-imagem-2
+{
+    margin-right: 50px;
+}
 
