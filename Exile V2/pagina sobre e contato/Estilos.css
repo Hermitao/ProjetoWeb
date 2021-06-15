@@ -1,0 +1,109 @@
+/*sobre*/
+.frame
+{
+    position: relative;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    background: #252525;
+    color:black;
+    padding: 15px 0px;
+}
+
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.imagem-borda
+{
+    border-radius: 50%;
+}
+
+.caixa-de-texto
+{
+    max-width: 540px;
+    background-color: #9b8e85;
+    padding: 25px 15px;
+}
+
+.box-imagem
+{
+    margin-right: 50px;
+}
+/*contato*/
+
+.frame
+{
+    position: relative;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    background: #000000;
+    color:black;
+    padding: 15px 0px;
+}
+
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.imagem-borda
+{
+    border-radius: 50%;
+}
+
+.caixa-de-contato
+{
+    max-width: 540px;
+    background-color: #ffffff;
+    width: 569px;
+    height: 150px;
+    padding: 10px 0px;
+    vertical-align: text-top;
+}
+
+.caixa-de-contato-email-assunto
+{
+    max-width: 540px;
+    background-color: #ffffff;
+    width: 569px;
+    height: 10px;
+    padding: 10px 0px;
+}
+
+.caixa-botao
+{
+    max-width: 540px;
+    background-color: #9b8e85;
+    padding: 25px 15px;
+    width: 540px;
+}
+
+.botao
+{
+    max-width: 540px;
+    color: azure;
+    background-color: #000000;
+    width: 100px;
+    height: 10px;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+
+.box-imagem
+{
+    margin-right: 50px;
+}
