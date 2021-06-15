@@ -1,28 +1,55 @@
 body {
-    background: rgb(22, 22, 22);
+    background: rgb(8, 10, 12);
+
+    animation: colorIn 3s;
+    -webkit-animation: colorIn 3s;
+    -moz-animation: colorIn 3s;
+    -o-animation: colorIn 3s;
+    -ms-animation: colorIn 3s;
 }
 
+@keyframes colorIn {
+    0% {background: rgb(24, 24, 24);}
+    80% {background: rgb(24, 24, 24);}
+    100% {background: rgb(8, 10, 12);}
+}
+
+@-moz-keyframes colorIn {
+    0% {background: rgb(24, 24, 24);}
+    80% {background: rgb(24, 24, 24);}
+    100% {background: rgb(8, 10, 12);}
+}
+
+@-webkit-keyframes colorIn {
+    0% {background: rgb(24, 24, 24);}
+    80% {background: rgb(24, 24, 24);}
+    100% {background: rgb(8, 10, 12);}
+}
+
+@-o-keyframes colorIn {
+    0% {background: rgb(24, 24, 24);}
+    80% {background: rgb(24, 24, 24);}
+    100% {background: rgb(8, 10, 12);}
+}
+
+@-ms-keyframes colorIn {
+    0% {background: rgb(24, 24, 24);}
+    80% {background: rgb(24, 24, 24);}
+    100% {background: rgb(8, 10, 12);}
+}
 
 .header {
-    display:block;
-    position: absolute;
-    
-    top: 50%;
-    left: 0%;
-    margin-left:5%;
-    margin-right: 5%;
-    /* bring your own prefixes */
-    transform: translate(-0%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
 
 .header-logo img {
 
-    width: 30%;
-    position: absolute;
-    
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -100%);
+    width: 25vw;
 
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
@@ -53,8 +80,10 @@ body {
 }
 
 .column img {
-    width: 100%;
+    margin-left: 5.0%;
+    width: 90%;
     height: 80%;
+    object-fit: cover;
 
     animation: fadeIn-1 5s;
     -webkit-animation: fadeIn-1 5s;
@@ -225,7 +254,6 @@ body {
 
 
 
-
 .header img {
     display:block;
 }
@@ -241,4 +269,64 @@ body {
 }
 
 /*sobre*/
+.frame
+{
+    position: relative;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    background: #252525;
+    color:black;
+    padding: 15px 0px;
+}
+
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.imagem-borda
+{
+    border-radius: 50%;
+}
+
+.caixa-de-texto
+{
+    max-width: 540px;
+    background-color: #9b8e85;
+    padding: 25px 15px;
+}
+
+.box-imagem
+{
+    margin-right: 50px;
+}
+
+
+/* Scrollbar ------------------------------ */
+ /* width */
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1f1e1e13;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  } 
+/* ---------------------------------------- */
 
