@@ -276,8 +276,8 @@ body {
     right:0px;
     bottom:0px;
     left:0px;
-    background: rgb(12, 14, 17);
-    color:black;
+    background: rgb(13, 16, 19);
+
     padding: 15px 0px;
 }
 
@@ -288,6 +288,7 @@ body {
     align-items: center;
     max-width: 980px;
     margin: 0 auto;
+   
 }
 
 .imagem-borda
